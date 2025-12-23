@@ -1,0 +1,141 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.biodata {
+    padding: 40px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+}
+
+h3 {
+    margin: 30px 0 15px;
+    color: #667eea;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+ul li strong {
+    color: #667eea;
+}
+
+.social-links {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #764ba2;
+    transform: translateY(-3px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f1f1;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        border-radius: 12px;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .biodata {
+        padding: 30px 20px;
+    }
+}
